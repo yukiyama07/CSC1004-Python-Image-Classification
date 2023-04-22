@@ -285,23 +285,3 @@ for p in processes:
 ```
 
 To implement the random seed and Mult-Processing requirement, in the '**main**' part I first create a processes list. The processes list is created to store references to the processes that will be created in the loop. The loop iterates over each seed in the config, seeds, and creates a new Process object using the Process constructor. The target argument specifies the function to be run in the new process, which is the run function. The newly created Process object is appended to the processes list, and then the start method is called on the Process object. This starts the execution of the run function in a new process. The join() method blocks the main program until the corresponding process has completed execution.  This ensures that the program does not terminate until all the processes have completed their tasks.
-
-### Plotting sample
-
-<p align="center">
-<img src="https://github.com/yukiyama07/CSC1004-Python-Image-Classification/blob/Plotting sample/5fe1634bf739d72df35c92dd79347c6.png?raw=true"/>
-</p>
-
-![99cb4510b0d6486a1784293ea3c48cf](C:\Users\17793\AppData\Local\Temp\WeChat Files\99cb4510b0d6486a1784293ea3c48cf.png)
-
-![82bf83e9c14b4ff8fab56e8ff70b825](C:\Users\17793\AppData\Local\Temp\WeChat Files\82bf83e9c14b4ff8fab56e8ff70b825.png)
-
-![408f3bc14f59e9cc55c6ee8a7189950](C:\Users\17793\AppData\Local\Temp\WeChat Files\408f3bc14f59e9cc55c6ee8a7189950.png)
-
-![6ce9a1979a94bbeab4a66609024078c](C:\Users\17793\AppData\Local\Temp\WeChat Files\6ce9a1979a94bbeab4a66609024078c.png)
-
-![a6c677465f4d196dc7bd59e854d58a7](C:\Users\17793\AppData\Local\Temp\WeChat Files\a6c677465f4d196dc7bd59e854d58a7.png)
-
-![24f1f6251f57ef204cd4b8a936436d8](C:\Users\17793\AppData\Local\Temp\WeChat Files\24f1f6251f57ef204cd4b8a936436d8.png)
-
-![152e8617cdc4dbf354447b0a72b18f2](C:\Users\17793\AppData\Local\Temp\WeChat Files\152e8617cdc4dbf354447b0a72b18f2.png)
