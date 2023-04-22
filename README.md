@@ -288,7 +288,9 @@ To implement the random seed and Mult-Processing requirement, in the '**main**' 
 
 ### Plotting sample
 
-![5fe1634bf739d72df35c92dd79347c6](C:\Users\17793\AppData\Local\Temp\WeChat Files\5fe1634bf739d72df35c92dd79347c6.png)
+<p align="center">
+<img src="https://github.com/yukiyama07/CSC1004-Python-Image-Classification/blob/Plotting sample/5fe1634bf739d72df35c92dd79347c6.png?raw=true"/>
+</p>
 
 ![99cb4510b0d6486a1784293ea3c48cf](C:\Users\17793\AppData\Local\Temp\WeChat Files\99cb4510b0d6486a1784293ea3c48cf.png)
 
